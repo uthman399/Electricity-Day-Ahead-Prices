@@ -8,13 +8,13 @@ model that forecasts **Germany's day-ahead price 24 hours in advance**.
 
 ## Highlights
 
-- 📈 **EDA** of ~8,760 hourly observations per market: seasonality, intraday shape, cross-market
+- **EDA** of ~8,760 hourly observations per market: seasonality, intraday shape, cross-market
   correlation, negative-price events, and volatility through the 2022 gas-supply shock
-- 🛠️ **Feature engineering**: calendar features, autoregressive lags (24h/48h/168h), rolling
+- **Feature engineering**: calendar features, autoregressive lags (24h/48h/168h), rolling
   statistics, and cross-market signals — built with strict train/test leakage discipline
-- 🤖 **Forecasting models**: naive seasonal baseline → Linear Regression → Random Forest → XGBoost,
+- **Forecasting models**: naive seasonal baseline → Linear Regression → Random Forest → XGBoost,
   evaluated on a chronological (not random) 8-week holdout
-- ✅ **Tested**: `pytest` unit tests cover data cleaning and feature-engineering correctness
+- **Tested**: `pytest` unit tests cover data cleaning and feature-engineering correctness
 
 ## Results
 
@@ -130,10 +130,5 @@ covering all of 2022 (`data/raw/electricity_dah_prices.csv`).
 - Probabilistic forecasting (quantile regression) to capture price-spike risk, not just the point forecast
 - Extend to multi-country joint forecasting
 
-## Author
-
-**Uthman** (Usman Kabir Turajo) — Electrical Engineer & Technical Analyst AI, exploring data science.
-
-## License
 
 MIT — see [LICENSE](LICENSE).
