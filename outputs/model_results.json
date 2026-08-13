@@ -1,0 +1,22 @@
+{
+  "Naive Seasonal (t-168h)": {
+    "MAE": 104.4,
+    "RMSE": 133.32,
+    "MAPE_%": 112.6
+  },
+  "Linear Regression": {
+    "MAE": 67.57,
+    "RMSE": 81.19,
+    "MAPE_%": 65.0
+  },
+  "Random Forest": {
+    "MAE": 69.72,
+    "RMSE": 84.21,
+    "MAPE_%": 79.3
+  },
+  "XGBoost": {
+    "MAE": 72.09,
+    "RMSE": 88.16,
+    "MAPE_%": 76.8
+  }
+}
